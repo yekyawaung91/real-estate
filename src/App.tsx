@@ -16,7 +16,7 @@ function App() {
     <ThemeProvider>
       <UserProvider>
         <PropertyProvider>
-          <Router>
+          <Router basename="/real-estate">
             <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
               <Navbar />
               <Routes>
